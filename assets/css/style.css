@@ -87,8 +87,15 @@ h2 {
     color: black;
 }
 
+.timer {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: black;
+}
+
 /* Style for the restart button */
-.restart {
+.play-again {
     display: block;
     margin: 4rem auto 1rem auto;
     font-size: 1.8rem;
@@ -101,11 +108,11 @@ h2 {
     transition: background-color 0.3s ease-in-out;
 }
 
-.restart:hover {
+.play-again:hover {
     background-color: rgb(146, 27, 43);
 }
 
-.restart:active {
+.play-again:active {
     transform: scale(0.9);
 }
 
