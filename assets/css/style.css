@@ -101,3 +101,23 @@ h1 {
 .restart:active {
     transform: scale(0.9);
 }
+
+/* Add style for responsive design */
+@media only screen and (max-width: 600px) {
+
+    .scoreboard {
+        flex-wrap: wrap;
+    }
+
+    .scoreboard > div {
+        margin: 1rem 0;
+    }
+    
+    .choices {
+        flex-wrap: wrap;
+    }
+
+    .choice {
+        margin: 2rem 1rem;
+    }
+}
