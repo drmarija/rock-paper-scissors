@@ -16,3 +16,19 @@ h1 {
     margin-top: 2.3rem;
     color: black;
 }
+
+/* Style the scoreboard */
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.1rem;
+}
+
+.scoreboard > div {
+    font-size: 2rem;
+    padding: 0.7rem;
+    margin: 0 1rem;
+    border: 2px solid black;
+    border-radius: 11px;
+    color: black;
+}
