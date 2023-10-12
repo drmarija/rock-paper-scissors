@@ -79,3 +79,25 @@ h1 {
     font-size: 2rem;
     color: black;
 }
+
+/* Style for the restart button */
+.restart {
+    display: block;
+    margin: 4rem auto 1rem auto;
+    font-size: 1.8rem;
+    border: 2px solid black;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    background-color: rgb(131, 87, 111);
+    cursor: pointer;
+    color: black;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.restart:hover {
+    background-color: rgb(146, 27, 43);
+}
+
+.restart:active {
+    transform: scale(0.9);
+}
