@@ -7,13 +7,13 @@
 
 body {
     font-family: "Poppins", serif;
-    background-color: rgb(19, 152, 214);
+    background-color: rgb(116, 33, 78);
 }
 
 h1 {
     text-align: center;
     font-size: 3.1rem;
-    margin-top: 2.3rem;
+    margin-top: 2.5rem;
     color: black;
 }
 
@@ -21,14 +21,47 @@ h1 {
 .scoreboard {
     display: flex;
     justify-content: center;
-    margin-top: 2.1rem;
+    margin-top: 2.6rem;
 }
 
 .scoreboard > div {
     font-size: 2rem;
     padding: 0.7rem;
     margin: 0 1rem;
-    border: 2px solid black;
+    border: 2.2px solid black;
     border-radius: 11px;
     color: black;
+}
+
+/* Style choices */
+.choices {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.choice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2rem;
+    padding: 2rem;
+    border: 2.3px solid black;
+    border-radius: 10px;
+    background-color: rgb(131, 87, 111);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.choice i {
+    color: black;
+    font-size: 54px;
+}
+
+.choice:hover {
+    transform: scale(1.2);
+}
+
+.choice:active {
+    transform: scale(0.9);
 }
