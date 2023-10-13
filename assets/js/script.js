@@ -13,13 +13,13 @@ let computerScore = 0;
 let countdown = 10;
 let timeout;
 
-// Function to generate random weapon for computer
+// Function to generate random choice for computer
 function computerPlay() {
     const weaponIndex = Math.floor(Math.random() * weapons.length);
     return weapons[weaponIndex];
 }
 
-// Function to update score and display result
+// Function to update score and compare results
 function updateScore(playerWeapon, computerWeapon) {
     clearTimeout(timeout);
     if (playerWeapon) {
